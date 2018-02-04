@@ -27,7 +27,7 @@ public class JobLauncherController {
 	@Autowired
 	Job job;
 	
-	@Scheduled(fixedDelayString="1000", initialDelayString="6000")
+	// @Scheduled(fixedDelayString="1000", initialDelayString="6000")
 	public void launchJob(){
 		try{
 			
